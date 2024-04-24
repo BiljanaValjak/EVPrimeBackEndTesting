@@ -1,0 +1,17 @@
+package model.responseNegativeScenarios;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class PostPutResponseEmptyImage {
+
+    String message;
+    PostPutResponseEmptyImageErrors errors;
+
+}
